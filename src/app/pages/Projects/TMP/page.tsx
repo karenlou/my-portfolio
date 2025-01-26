@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from "next/image"
 import Link from 'next/link';
-import Project from '@/components/Project'
-import Path from '@/components/Path'
-import Figure from '@/components/Figure'
-import ProgressBar from '@/components/ProgressBar';
+import Project from '@/app/components/Project'
+import Path from '@/app/components/Path'
+import Figure from '@/app/components/Figure'
+import ProgressBar from '@/app/components/ProgressBar';
 
 const TMP = () => {
   return (
