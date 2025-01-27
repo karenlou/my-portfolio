@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import PlayProject from '@/app/components/PlayProject'
 
 const Play = () => {
