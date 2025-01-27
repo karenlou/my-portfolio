@@ -7,7 +7,7 @@ const Play = () => {
         <div className="flex-col justify-center ">
             <h1 className="font-robotomono text-sm inline-flex align-text-bottom text-stone-500 border-solid border-[1px] border-stone-400 rounded-md px-2 mb-14 uppercase  animate-settle [--settle-delay:100ms]">An archive of things I do on the side 🫀</h1>
             <div className="grid grid-cols-3 gap-x-14 ">
-                <div className="flex-col animate-settle [--settle-delay:200ms]">
+                <div className="flex items-center flex-col animate-settle [--settle-delay:200ms]">
                     <PlayProject 
                     imageSrc="/CharcoalPortrait.JPG"
                     title="Untitled 2022"
@@ -18,8 +18,13 @@ const Play = () => {
                     title="Banh Mi Fundraiser Graphic"
                     description={`January 2022\nGraphics`}
                     />
+                    <PlayProject 
+                    imageSrc="/ModNotes.jpeg"
+                    title="Doodles from my class notes"
+                    description={`September 2024\nDoodles `}
+                    />
                 </div>
-                <div className="flex-col animate-settle [--settle-delay:250ms]">
+                <div className="flex items-center flex-col animate-settle [--settle-delay:250ms]">
                     <PlayProject 
                     imageSrc="/Cubed2.png"
                     title="Cubed Sculpture 2d"
@@ -35,8 +40,13 @@ const Play = () => {
                     title="Warriors x Warriors Graphic"
                     description={`November 2023\nGraphics`}
                     />
+                    <PlayProject 
+                    imageSrc="/Untitled2.png"
+                    title="Untitled"
+                    description={`November 2023\n18x24 in\nGouache, watercolor on multimedia paper`}
+                    />
                 </div>
-                <div className="flex-col animate-settle [--settle-delay:300ms]">
+                <div className="flex items-center flex-col animate-settle [--settle-delay:300ms]">
                     <PlayProject 
                     imageSrc="/SelfPortrait.jpg"
                     title="Self Portrait"
@@ -46,6 +56,11 @@ const Play = () => {
                     imageSrc="/Cabo.JPG"
                     title="Cabo Sunset"
                     description={`December 2024\nIn Cabo`}
+                    />
+                    <PlayProject 
+                    imageSrc="/InnoDF24DesignChallenge.png"
+                    title="Design Challenge UI"
+                    description={`September 2024\nUI Design`}
                     />
                     <PlayProject 
                     imageSrc="/MCWeek2024.png"
