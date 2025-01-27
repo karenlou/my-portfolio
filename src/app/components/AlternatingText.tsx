@@ -46,7 +46,7 @@ const AlternatingText: React.FC = () => {
           </span>
             striving to build, learn, and create.
         </p>
-      <h1 className="text-lg lg:text-xl font-medium font-geist text-stone-600 my-5 md:my-7 md:block text-left whitespace-nowrap ">Welcome to my 🌎.</h1>
+      <h1 className="text-base lg:text-lg font-medium font-geist text-stone-600 my-5 md:my-7 md:block text-left whitespace-nowrap ">Welcome to my 🌎,<br />built with next.js</h1>
     </div>
   );
 };

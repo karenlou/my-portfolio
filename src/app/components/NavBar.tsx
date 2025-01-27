@@ -41,6 +41,9 @@ const NavBar = () => {
           <Link href="/" className={`${isActive("/")} flex-shrink-0 hover:-translate-y-1 transition-transform duration:100`}>
             projects
           </Link>
+          <Link href="/pages/play" className={`${isActive("/pages/play")} flex-shrink-0 hover:-translate-y-1 transition-transform duration:100`}>
+            play
+          </Link>
           <Link href="/pages/about" className={`${isActive("/pages/about")} flex-shrink-0 hover:-translate-y-1 transition-transform duration:100`}>
             about
           </Link>

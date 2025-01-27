@@ -2,7 +2,6 @@ import React from 'react'
 import Image from "next/image"
 import Link from 'next/link';
 import Project from '@/app/components/Project'
-import Path from '@/app/components/Path'
 import Figure from '@/app/components/Figure'
 import ProgressBar from '@/app/components/ProgressBar';
 
@@ -30,7 +29,10 @@ const TMP = () => {
                     <p className="max-w-full text-3xl font-semibold text-stone-800 pb-4">Deliver and embody TMP&apos;s bold, playful branding in a new way.</p>
                     <p className="max-w-full text-stone-500 mb-7 border-dashed border-[1px] border-stone-400 rounded-md px-4 py-4 content-center text-base">Bring a refreshed and up-to-date look, page structure, and information to the previously designed Trojan Marketplace website.</p>
                 </div>
-                <Path />
+                <div className="flex divide-x-[1px] divide-stone-400 my-2">
+                    <div className="flex-1 min-h-40"></div>
+                    <div className="flex-1 min-h-40"></div>
+                </div>
                 <h1 className="inline-flex px-2 text-stone-800 border-solid border-[0.5px] border-stone-800 rounded-md font-geist text-lg mb-7">🔑 Objectives</h1>
                 <div className="flex mx-auto md:gap-20 justify-between">
                     <p className="max-w-full text-3xl font-semibold text-stone-800 pb-4">Publish complete redesign within 10 weeks.</p>
@@ -92,25 +94,31 @@ const TMP = () => {
                     />
                     <p className="text-3xl font-semibold mt-24">✍️ Designing</p>
                     <p className="text-stone-500 text-base my-4">Moving from low to high fidelity wireframes, playing with layout and brand cohesion on Figma.</p>
-                    <div className="relative flex-col md:flex mx-auto justify-center">
-                        <Figure
-                        imageSrc="/TMPVendorsLowfi.png"                 
-                        title="TMP Vendors Page Low-fi Wireframe"
-                        figureNum="Fig. 3"
-                        description="Low-fidelity wireframe establishing card structure. Playing with how to categorize the vendors."
-                        />
-                        <Figure 
-                        imageSrc="/TMPVendorsMidfi.png"               
-                        title="TMP Vendors Page Mid-fi Wireframe"
-                        figureNum="Fig. 4"
-                        description="Mid-fidelity wireframe with improved categorization structure and card design."
-                        />
-                        <Figure 
-                        imageSrc="/TMPVendorsHifi.png"
-                        title="TMP Vendors Page Hi-fi Wireframe"
-                        figureNum="Fig. 5"
-                        description={`High-fidelity wireframe incoporating TMP's branding. Changed card design to link to vendor's website/social media directly to simplify user flow.`}
-                        />
+                    <div className="relative md:flex mx-auto justify-center">
+                        <div className="flex-1">
+                            <Figure
+                            imageSrc="/TMPVendorsLowfi.png"                 
+                            title="TMP Vendors Page Low-fi Wireframe"
+                            figureNum="Fig. 3"
+                            description="Low-fidelity wireframe establishing card structure. Playing with how to categorize the vendors."
+                            />
+                        </div>
+                        <div className="flex-1">
+                            <Figure 
+                            imageSrc="/TMPVendorsMidfi.png"               
+                            title="TMP Vendors Page Mid-fi Wireframe"
+                            figureNum="Fig. 4"
+                            description="Mid-fidelity wireframe with improved categorization structure and card design."
+                            />
+                        </div>
+                        <div className="flex-1">
+                            <Figure 
+                            imageSrc="/TMPVendorsHifi.png"
+                            title="TMP Vendors Page Hi-fi Wireframe"
+                            figureNum="Fig. 5"
+                            description={`High-fidelity wireframe incoporating TMP's branding. Changed card design to link to vendor's website/social media directly to simplify user flow.`}
+                            />
+                        </div>
                     </div>
                 </div>
                 <p id="section-3" className="section text-3xl font-semibold pt-16">👩‍💻 Building</p>

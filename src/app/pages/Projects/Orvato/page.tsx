@@ -2,7 +2,6 @@ import React from 'react'
 import Image from "next/image"
 import Link from 'next/link';
 import Project from '@/app/components/Project'
-import Path from '@/app/components/Path'
 import Figure from '@/app/components/Figure'
 import ProgressBar from '@/app/components/ProgressBar';
 
@@ -33,7 +32,10 @@ const Orvato = () => {
                       <p className="px-4 py-4 mb-7 inline-flex rounded-md object-cover shadow-sm shadow-neutral-950/50 bg-neutral-200/40">💭 How can we streamline the homebuying process so developers can convert buyers faster?</p>
                     </div>
                 </div>
-                <Path />
+                <div className="flex divide-x-[1px] divide-stone-400 my-2">
+                  <div className="flex-1 min-h-40"></div>
+                  <div className="flex-1 min-h-40"></div>
+              </div>
                 <h1 className="inline-flex px-2 text-stone-800 border-solid border-[0.5px] border-stone-800 rounded-md font-geist text-lg mb-7">Our Solution</h1>
                 <div className="flex mx-auto gap-20 justify-between">
                     <p className="max-w-full text-3xl font-semibold text-stone-800 pb-4">Enable developers to tailor their listings to the individual buyer and provide instant answers.</p>
