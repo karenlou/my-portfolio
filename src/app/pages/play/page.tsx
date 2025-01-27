@@ -26,7 +26,7 @@ const Play = () => {
                     description={`December 2024\nSculpture\nCubed 2d`}
                     />
                     <PlayProject 
-                    imageSrc="/Cubed.PNG"
+                    imageSrc="/Cubed.png"
                     title="Cubed Sculpture"
                     description={`December 2024\nSculpture\nCubed 3d`}
                     />
@@ -43,12 +43,12 @@ const Play = () => {
                     description={`July 2023\n11x13 in\nGouache, watercolor, acrylic on multimedia paper`}
                     />
                     <PlayProject 
-                    imageSrc="/Cabo.jpg"
+                    imageSrc="/Cabo.JPG"
                     title="Cabo Sunset"
                     description={`December 2024\nIn Cabo`}
                     />
                     <PlayProject 
-                    imageSrc="/MCWeek2024.PNG"
+                    imageSrc="/MCWeek2024.png"
                     title="MC Week Graphic 2024"
                     description={`January 2024\nGraphics`}
                     />

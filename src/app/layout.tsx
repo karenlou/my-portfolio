@@ -88,13 +88,6 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <head>
-        <link
-        rel="icon"
-        href="/PortfolioLogo.png"
-        type="image/png"
-        sizes="96x96"
-      /></head>
       <body
         className={`${inter.variable} ${jetbrains.variable} ${jersey10.variable} ${barlow.variable} ${ooohbaby.variable} ${rubik.variable} ${oxygenmono.variable} ${geist.variable} ${robotomono.variable} scroll-smooth antialiased`}
       >
