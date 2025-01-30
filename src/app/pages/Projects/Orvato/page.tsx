@@ -105,7 +105,7 @@ const Orvato = () => {
                     <div className="relative group">
                         <Image
                             className="shadow-none mb-4 transition-opacity duration-300 ease-in-out"
-                            src="/OrvatoPitchDecK.png"
+                            src="/OrvatoPitchDeck.png"
                             alt="Visit Orvato's Pitch Deck"
                             layout="responsive"
                             width={400}
