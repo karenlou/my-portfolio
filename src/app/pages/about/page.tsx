@@ -30,7 +30,7 @@ const About = () => {
           <p className="max-w-md text-base md:text-lg text-stone-800 text-justify ">🍀 I&apos;m currently a student exploring product design and tech at USC&apos;s Iovine and Young Academy.
           </p>
           <p className="max-w-md text-base md:text-lg text-stone-800 text-justify pt-7">A designer at heart, my goal has always been <span className="font-semibold">versatility</span>—that&apos;s why I&apos;m constantly seeking out new experiences to learn from and new skills to refine.<span className="text-stone-500"> Right now, I&apos;m particularly interested in fullstack dev, wearable tech, and backpacking.</span> Always feel free to <span className="underline decoration-wavy">reach out</span> with cool project ideas ☺</p>
-          <a href="https://drive.google.com/file/d/17I0WQ2de7KkNDt_SJqFd-I781zQtr79H/view?usp=sharing" target={"_blank"} rel={"external"} className="flex-shrink-0">
+          <a href="https://drive.google.com/file/d/17CLZZXH1qwobsVYk6MXM2uKlGb86QvGJ/view?usp=sharing" target={"_blank"} rel={"external"} className="flex-shrink-0">
             <p className="max-w-md font-robotomono uppercase text-sm text-blue-700 text-justify pt-12 hover:text-blue-500 duration-100">my resume</p>
           </a>
       </div>
