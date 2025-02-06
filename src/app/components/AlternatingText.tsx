@@ -35,10 +35,10 @@ const AlternatingText: React.FC = () => {
   }, []);
 
   return (
-    <div className="flex-start flex-col md:w-20 md:pr-10 h-28 md:h-auto">
+    <div className="flex-start flex-col mb-10 md:w-20 md:pr-10 h-28 md:h-auto">
       <h1 className="text-2xl lg:text-3xl font-medium font-geist text-stone-900 mb-2 md:block text-left whitespace-nowrap">
         Hi! 👋 </h1>
-        <p className=" text-3xl lg:text-5xl font-medium font-geist text-stone-900 text-left h-24 md:h-auto">
+        <p className="text-2xl sm:text-4xl xl:text-5xl font-medium font-geist text-stone-900 text-left h-24 md:h-auto">
           <span className="font-semibold">I&apos;m Karen,</span> a(n)
           <span className={`
             currentFont ${currentFont} text-blue-700 mb-0 md:inline-block leading-[17px]`}>

@@ -9,9 +9,9 @@ export default function Home() {
         <div className="md:fixed"><AlternatingText /></div>
       </div>
       <div className="relative row-span-10 md:col-span-3">
-        <div className="md:flex md:justify-between md:items-center mb-4 animate-settle [--settle-delay:100ms]">
+        <div className="md:flex md:justify-between md:items-center mb-4 gap-10 animate-settle [--settle-delay:100ms]">
           <div className="font-robotomono text-sm align-text-bottom text-stone-500 border-solid border-[1px] border-stone-400 rounded-md px-2 uppercase">What I&apos;ve been working on 👇</div>
-          <div className="align-text-bottom text-sm text-stone-500/70"><span className="text-sm text-stone-500">🛠️ This site is still a work in progress!</span> Last updated Jan 27 2025.</div>
+          <div className="align-text-bottom text-sm text-right justify-self-start text-stone-500/70"><span className="text-sm text-stone-500">🛠️ This site is still a work in progress!</span> Last updated Jan 27 2025.</div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-7 pt-3">
           <div className="animate-settle [--settle-delay:150ms]">
