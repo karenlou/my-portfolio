@@ -40,9 +40,9 @@ export default function Home() {
             {/* Dishful */}
             <div className="max-w-full overflow-hidden rounded-[5px] border-solid border-0 border-stone-300">
                 {/* Image with Next.js Image component */}
-                <div className="flex items-center justify-center bg-stone-200/25 shadow-inner shadow-amber-950/50 rounded-sm">
+                <div className="flex items-center justify-center bg-stone-200/25 shadow-inner shadow-amber-950/50 rounded-sm p-3">
                     <Image
-                        className="w-full h-auto m-3 rounded-md object-cover shadow-sm shadow-amber-950/50 " 
+                        className="w-full h-auto rounded-md object-cover shadow-sm shadow-amber-950/50 " 
                         src="/Dishful.png" 
                         alt="Dishful" 
                         layout="responsive"
