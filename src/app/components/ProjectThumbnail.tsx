@@ -25,9 +25,9 @@ const ProjectThumbnail: React.FC<ProjectThumbnailProps> = ({ imageSrc, title, ro
         <div className="max-w-full overflow-hidden rounded-[5px] border-solid border-0 border-stone-300">
                 {/* Image with Next.js Image component */}
                 <Link href={link}>
-                    <div className="flex items-center justify-center bg-stone-200/25 shadow-inner shadow-amber-950/50 rounded-sm">
+                    <div className="flex items-center justify-center bg-stone-200/25 shadow-inner shadow-amber-950/50 rounded-sm p-3">
                         <Image
-                            className="w-auto h-auto m-3 rounded-md object-cover shadow-sm shadow-amber-950/50 hover:shadow-md hover:shadow-amber-950/25 hover:scale-[102%] transition-transform duration-100" 
+                            className="w-full h-auto rounded-md object-cover shadow-sm shadow-amber-950/50 hover:shadow-md hover:shadow-amber-950/25 hover:scale-[102%] transition-transform duration-100" 
                             src={imageSrc} 
                             alt={title} 
                             layout="responsive"
