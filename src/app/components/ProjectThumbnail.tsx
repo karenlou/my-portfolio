@@ -27,7 +27,7 @@ const ProjectThumbnail: React.FC<ProjectThumbnailProps> = ({ imageSrc, title, ro
                 <Link href={link}>
                     <div className="flex items-center justify-center bg-stone-200/25 shadow-inner shadow-amber-950/50 rounded-sm">
                         <Image
-                            className="w-full h-auto m-3 rounded-md object-cover shadow-sm shadow-amber-950/50 hover:shadow-md hover:shadow-amber-950/25 hover:scale-[102%] transition-transform duration-100" 
+                            className="w-auto h-auto m-3 rounded-md object-cover shadow-sm shadow-amber-950/50 hover:shadow-md hover:shadow-amber-950/25 hover:scale-[102%] transition-transform duration-100" 
                             src={imageSrc} 
                             alt={title} 
                             layout="responsive"
