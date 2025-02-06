@@ -18,9 +18,9 @@ const PlayProject: React.FC<PlayProjectProps> = ({ imageSrc, title, description 
     ));
   return (
     <div className="max-w-fit font-geist text-sm text-stone-700 justify-center items-center">
-        <div className="flex items-center justify-center bg-stone-200/25 shadow-inner shadow-amber-950/50 rounded-sm">
+        <div className="flex items-center justify-center bg-stone-200/25 shadow-inner shadow-amber-950/50 rounded-sm p-3">
             <Image
-                className="max-w-20 md:max-w-xs m-3 object-cover shadow-sm shadow-amber-950/50 "
+                className="max-w-20 md:max-w-xs object-cover shadow-sm shadow-amber-950/50 "
                 src={imageSrc}
                 alt={title}
                 layout="responsive"
